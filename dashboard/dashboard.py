@@ -54,7 +54,7 @@ def analyze_bike_rentals(df):
     plot_weather_avg(df)
 
 # Load cleaned data
-all_df = pd.read_csv("day_data.csv")
+all_df = pd.read_csv("dashboard/day_data.csv")
 
 # Ubah kolom tanggal ke format datetime
 datetime_columns = ["dteday"]
